@@ -1,0 +1,142 @@
+<div class="jumbotron">
+		<div class="container">
+		<div class="row">
+			<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+				<h2 class="bussiness-card-heading">Standard Bussiness Cards</h2>
+			</div>
+			<div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 bussiness-card-discription">
+				<img src="">
+			</div>
+		</div>
+	</div>
+	</div>
+	
+
+		<div class="container">
+			<div class="tab">
+			  <button class="tablinks" (onclick)="openCity(event, 'productionOption')">Select Production Option</button>
+			  <button class="tablinks" (onclick)="openCity(event, 'designUpload')">Choose and Upload Design</button>
+			  <button class="tablinks" (onclick)="openCity(event, 'productionTime')">Select Delivery Option</button>
+            </div>
+            
+			<div id="productionOption" class=" col-lg-3 col-md-3 col-sm-6 col-xs-12 bg-info">
+			<h4 class="heading text-center"><span class="number badge">1</span> Select Production Option</h4>
+		<form id="production-option-form" novalidate onsubmit="return validateForm(this)"> 
+			 <div class="form-group">
+    			<label for="printedslides">Printed Slides</label>
+    			<select class="form-control" name="printedslide" id="printedslide">
+    			<option></option>
+	  			<option>Color Front, Blank Back</option>
+	  			<option>Full Color Both Sides</option>
+			</select>
+  			</div>
+  			<div class="form-group">
+    			<label for="size">Size</label>
+    			<select class="form-control" name="size" id="size">
+    			<option></option>
+	  			<option >3.5" * 2" (Standard)</option>
+	  			<option >3.5" * 1" (Slim)</option>
+	  			<option >2" * 2" (Mini-Square)</option>
+	  			<option >3.5" * 3.5" (Jumbo-Square)</option>
+			</select>
+  			</div>
+  			<div class="form-group">
+    			<label for="Paper">Paper</label>
+    			<select class="form-control" name="paper" id="paper">
+    			<option></option>
+	  			<option>14 pt. C2S Gloss Cover</option>
+	  			<option>14 pt. C1S Gloss Cover</option>
+	  			<option>13 pt. Matte Cover</option>
+	  			<option>13 pt. 100% Recyled Matte Cover</option>
+	  			<option>16 pt. C2S Gloss Cover</option>
+	  			<option>15 pt. Velvet Cover</option>
+	  			<option>15 pt. Velvet with Soft-Touch</option>
+	  			<option>100lb. Brillient White Linen Cover</option>
+	  			<option>100lb. Natural White Linen Cover</option>
+	  			</select>
+  			</div>
+  			<div class="form-group">
+    			<label for="roundedcorners">Rounded Corners</label>
+    			<select class="form-control" name="roundedcorner" id="roundedcorner">
+	  			<option></option>
+	  			<option>No Rounded Corners</option>
+	  			<option>1/8" Rounded Corners</option>
+			</select>
+  			</div>
+  			<div class="form-group">
+    			<label for="uvcoating">UV Coating</label>
+    			<select class="form-control" name="uvcoating" id="uvcoating">
+	  			<option></option>
+	  			<option>None</option>
+	  			<option>UV Front</option>
+	  			<option>UV Both Sides</option>
+			</select>
+  			</div>
+  			<div class="form-group">
+    			<label for="quantity">Quantity</label>
+    			<select class="form-control" name="quantity" id="quantity">
+	  			<option></option>
+	  			<option>50</option>
+	  			<option>100</option>
+	  			<option>150</option>
+	  			<option>200</option>
+	  			<option>250</option>
+	  			<option>500</option>
+	  			<option>1,000</option>
+	  			<option>2,000</option>
+	  			<option>2,500</option>
+	  			<option>3,000</option>
+	  			<option>4,000</option>
+	  			<option>5,000</option>
+	  			<option>10,000</option>
+			</select>
+  			</div> <!-- production section ends -->
+            <button class="col-xs-6 col-xs-offset-3 btn btn-primary" type="submit"><i class="glyphicon glyphicon-shopping-cart"></i>  Add to Cart</button>
+  		</form>
+			</div>
+
+			<div id="designUpload" class=" col-lg-3 col-md-3 col-sm-6 col-xs-12 bg-info">
+				<h4 class="heading text-center"><span class="badge">2</span> Choose and Upload Design</h4>
+				<div class="form-group">
+				<label class=" alert-success  text-center col-xs-12">Upload Your Design</label>
+				<br><br>
+				<label>Upload Design (Optional)</label>
+				
+					<input type="file" name="uploadfile" class="form-control" >
+				</div>
+			</div>
+			
+
+			<div id="productionTime" class=" col-lg-3 col-md-3 col-sm-6 col-xs-12 bg-info">
+					<h4 class="heading text-center"><span class="badge">3</span> Select Delivery Option</h4>
+					<div class="form-group">
+						<label for="productiontime">Production Time</label>
+						<select class="form-control">
+							<option></option>
+							<option>5 Bussiness Card</option>
+							<option>4 Bussiness Card</option>
+							<option>3 Bussiness Card</option>
+							<option>2 Bussiness Card</option>
+							<option>1 Bussiness Card</option>
+						</select>
+					</div>
+					<div class="form-group">
+						<label>Zip Code</label>
+						<input type="number" max="5" name="zipcode" class="form-control">
+					</div>
+			</div>
+		
+		
+		<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 bg-info">
+				<h4 class="heading text-center">Job Summary</h4>
+				<hr>
+					<label>Printing Cost :</label><p></p>
+					<label>60% Off :</label><p></p>
+					<label>Shipping :</label><p></p>
+				<hr>
+				<label>Job Total :</label>
+				<br><br>
+				<button class="col-xs-6 col-xs-offset-3 btn btn-primary" type="submit"><i class="glyphicon glyphicon-shopping-cart"></i>  Add to Cart</button>
+				
+		</div>
+		</div>

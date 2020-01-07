@@ -1,0 +1,50 @@
+<div class="product-list-button visible-sm" >
+    <button id="navbarToggle" type="button" class="navbar-toggle collapsed pull-left visible-sm" 
+    data-toggle="collapse" data-target="#product-list-nav" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+    </button>
+
+
+<div id="product-list-nav" class="collapse navbar-collapse col-lg-7 col-md-9 col-sm-9">
+    <ul id="nav-list" class="nav navbar-nav">
+        <li *ngFor="let product of products">
+            <a title="product.name">
+                    {{product.name}}
+            </a>
+        </li>
+    </ul>
+</div> 
+</div>
+
+
+
+
+
+
+
+<!-- <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+             <li><a routerLink="bannerAndSignage" class="list-group-item">Banner And Signage</a></li>
+             <li><a routerLink="bussiness-card"  class="list-group-item">Bussiess Cards</a></li>
+            <li><a href="#"  class="list-group-item">Calander</a></li>
+            <li><a href="#"  class="list-group-item">Panaflex Design</a></li>
+            <li><a href="#"  class="list-group-item">Poster</a></li>
+            <li><a href="#"  class="list-group-item">Borshers</a></li>
+            <li><a href="#"  class="list-group-item">Mug Printing</a></li>
+            <li><a href="#"  class="list-group-item">T-Shirt Printing</a></li>
+            <li><a href="#"  class="list-group-item">Key- Ring Printing</a></li>
+            <li><a href="#">Four color sticker Printing</a></li>
+            <li><a href="#"  class="list-group-item">Logo Design</a></li>
+            <li><a href="#"  class="list-group-item">Website Designing</a></li>
+            <li><a href="#"  class="list-group-item">Envelops</a></li>
+            <li><a href="#"  class="list-group-item">Bag Printing</a></li>
+            <li><a href="#"  class="list-group-item">Notepads</a></li>
+            <li><a href="#"  class="list-group-item">File Covers</a></li>
+            <li><a href="#"  class="list-group-item">Note Pads</a></li>
+            <li><a href="#"  class="list-group-item">Books</a></li>
+            <li><a href="#"  class="list-group-item">Shields</a></li>
+            <li><a href="#"  class="list-group-item">Stamps</a></li>
+            <li><a href="#">Mehfil Naats Design</a></li>
+</ul> -->

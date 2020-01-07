@@ -1,0 +1,35 @@
+footer {
+    background-color: #58D68D;
+}
+footer {
+	background-color: #eee;
+}
+.footer-content {
+	width: 100%;
+	height: auto;
+	padding: 5px;
+}
+.footer-content li {
+	list-style: none;
+}
+.footer-content li:hover {
+	color: #fff;
+	background-color: #555;
+}
+.footer-content .list-group-item {
+	border:none;
+}
+#social-media-links {
+	text-align: center;
+}
+#social-media-links img {
+	width: 35px;
+}
+#social-media-links li {
+	display: inline-block;
+	align-items: center;
+}
+hr {
+	height: 5px;
+	background-color: gray;
+}

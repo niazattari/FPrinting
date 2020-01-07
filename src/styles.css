@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+@import url('https://fontawesome.com/icons?d=gallery');
+@import url('https://fonts.googleapis.com/css?family=Oxygen:400,300,700');
+
+* {
+	box-sizing: border-box;
+}
+/*.full-width {
+	width: 100%;
+}*/
+
+
+
+/* .aside .list-group-item {
+	padding:3px 0;
+} */
+
+
+/*for small screen*/
+@media screen and (max-width: 768px) {
+	.navbar-nav li {
+		text-align: center;
+	}
+	.navbar-header, .collapse {
+	margin-top: 0;
+}
+
+}

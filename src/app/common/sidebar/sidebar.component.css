@@ -1,0 +1,48 @@
+  .product-list-button {
+	  float: left;
+  }
+  .product-list-nav {
+	padding: 0;
+	margin: 0;
+  }
+ #nav-list {
+	margin-top: 10px;
+	padding: 0;
+	margin: 0;
+  }
+  #nav-list a {
+    color: #951C49;
+    text-align: center;
+  }
+  #nav-list a:hover {
+    background: #E7E7E7;
+  }
+  #nav-list a span {
+    font-size: 1.8em;
+  }
+  
+  #phone {
+    margin-top: 5px;
+  }
+  #phone a { /* Phone number */
+    text-align: right;
+    padding-bottom: 0;
+  }
+  #phone div { /* We Deliver */
+    color: #557c3e;
+    text-align: right;
+    padding-right: 15px;
+  }
+  
+  .navbar-toggle, .icon-bar {
+    border: 1px solid #61122f;
+  }
+  .navbar-toggle {
+    clear: both;
+    margin-top: 1px;
+  }
+  .navbar-collapse {
+	  padding: 0;
+	  margin: 0;
+  }
+  /* END HEADER */

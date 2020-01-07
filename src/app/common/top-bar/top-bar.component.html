@@ -1,0 +1,11 @@
+<div class="top-bar visible-lg visible-md">
+    <div id='cssmenu' routerLink="product-bar">
+        <ul >
+            <li *ngFor="let product of products; index as productId">
+                <a [title]="product.name" [routerLink]="['/products',productId]">
+                    {{product.name}}
+                </a>
+            </li>
+        </ul>
+        </div>
+</div>

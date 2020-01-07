@@ -1,0 +1,45 @@
+.products {
+	position: relative;
+	border-radius: 15px;
+}
+.item-label {
+	position: absolute;
+	padding: 5px;
+	text-align: center;
+	margin-top: -8px;
+}
+.item-label:hover {
+	background-color: #5bc0de;
+	cursor: pointer;
+}
+.item-label .info {
+	color: #f0ad4e;
+}
+.caption .item-features {
+	margin-top: 20px;
+}
+.heading {
+	padding: 5px;
+	border-radius: 10px;
+	background-color: powderblue;
+}
+.number {
+	background-color: powderblue;
+}
+.tab {overflow: hidden; border: 1px solid #ccc; 
+background-color: #f1f1f1;}
+
+.tabcontent {display: none; padding: 6px 12px; border: 1px solid #ccc;
+    border-top: none;}
+    
+.tab button {background-color: inherit; float: left; border: none;
+    outline: none; cursor: pointer; padding: 14px 16px; 
+    transition: 0.3s;}
+    
+.tab button:hover {background-color: #ddd;}
+
+.tab .active {background-color: #ccc;}
+
+.tabcontent {display: none; padding: 6px 12px;
+
+border: 1px solid #ccc; border-top: none;}
