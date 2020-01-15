@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { product} from './products';
+import { Product} from './shared/product';
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
